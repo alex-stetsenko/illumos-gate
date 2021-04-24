@@ -111,6 +111,7 @@ typedef enum zap_flags {
 	 * already randomly distributed.
 	 */
 	ZAP_FLAG_PRE_HASHED_KEY = 1 << 2,
+	ZAP_FLAG_NO_SHRINK = 1 << 3
 } zap_flags_t;
 
 /*
